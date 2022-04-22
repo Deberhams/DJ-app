@@ -1,7 +1,7 @@
 # DJ - music app 
 
 ## A funny beat maker project
-### Technologies: html5 || css3 || javascript || tailwindcss
+### Technologies: HTML5 || CSS3 || Javascript || Gulp || Sass
 
 ============================================================
 
