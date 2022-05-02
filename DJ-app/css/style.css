@@ -62,10 +62,6 @@
   font-style: normal;
 }
 
-div {
-  background: url("../img/Cover.jpg") 0 0 no-repeat;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -206,4 +202,26 @@ select {
   margin-left: 1rem;
 }
 
-.webp div { background: url(../img/Cover.webp) 0 0 no-repeat; }
+@-webkit-keyframes playTrack {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@keyframes playTrack {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
