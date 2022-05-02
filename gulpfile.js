@@ -11,6 +11,7 @@ let path = {
         js: project_folder+'/js/',
         img: project_folder+'/img/',
         fonts: project_folder+'/fonts/',
+        sounds: project_folder+'/sounds/allSounds/',
     },
     // Откуда gulp будет брать исходники для проекта. Папка #src
     src: { // source_folder - папка с исходниками
@@ -19,6 +20,7 @@ let path = {
         js: source_folder+'/js/script.js',
         img: source_folder+'/img/**/*.{jpg,png,svg,gif,ico,webp}', // **/ - слушает все подпапки внутри img
         fonts: source_folder+'/fonts/*.ttf',
+        sounds: source_folder+'/sounds/allSounds/*.wav',
     },
     watch: { // Будет отслеживать изменения в файлах. Папка #
         // source_folder - папка с исходниками
@@ -26,6 +28,7 @@ let path = {
         css: source_folder + '/sass/**/*.sass',
         js: source_folder+'/js/**/*.js',
         img: source_folder+'/img/**/*.{jpg,png,svg,gif,ico,webp}', // **/ - слушает все подпапки внутри img
+        sounds: source_folder+'/sounds/allSounds/*.wav',
     },
     clean: './' + project_folder + '/'
 }
