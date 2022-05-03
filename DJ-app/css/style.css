@@ -185,13 +185,36 @@ body {
   color: white;
   border: none;
   cursor: pointer;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 select {
   padding: 1rem;
   font-size: 1rem;
   margin-left: 1rem;
+}
+
+.tempo {
+  margin: 0.5rem;
+  width: 30%;
+}
+
+.tempo-slider {
+  padding: 0.2rem;
+  -webkit-appearance: none;
+  margin: 0.5rem 0rem;
+  width: 100%;
+  position: relative;
+  background: #585858;
+  cursor: pointer;
+  border-radius: 2rem;
+}
+
+.tempo p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0.1rem;
+  text-align: center;
 }
 
 @-webkit-keyframes playTrack {
