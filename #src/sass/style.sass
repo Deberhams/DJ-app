@@ -16,9 +16,6 @@
 body
     font-family: sans-serif
 
-i,svg
-    pointer-events: none
-
 .kick-pad,
 .snare-pad,
 .hihat-pad
@@ -34,7 +31,7 @@ i,svg
     background: rgb(194, 160, 224)
 
 .hihat-pad
-    background: rgb(193, 230, 125)
+    background: rgb(189, 211, 148)
 
 .kick-pad.active
     background: #55d2f2
@@ -43,7 +40,7 @@ i,svg
     background: rgb(174, 107, 232)
 
 .hihat-pad.active
-    background: rgb(179, 243, 61)
+    background: rgb(166, 255, 0)
 
 .sequencer
     display: flex
@@ -72,12 +69,10 @@ i,svg
     align-items: center
     flex: 1
     margin: 0rem 2rem
-
-.controls button
-    padding: 1rem
+    padding: 0.5rem
     border: none
-    background: rgb(88, 88, 88)
-    color: white
+    background: rgb(0, 0, 0)
+    color: rgb(255, 255, 255)
     font-size: 1rem
     cursor: pointer
     transition: all 0.5s ease
@@ -104,3 +99,6 @@ select
         transform: scale(1)  
     100%
         transform: scale(1.2)  
+
+@mixin name
+    .controls button
